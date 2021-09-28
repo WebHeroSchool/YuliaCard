@@ -1,10 +1,4 @@
 @font-face {
-  font-family: 'pt_serifbold';
-  src: url('fonts/ptserif-bold-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
     font-family: 'gilroyextrabold';
     src: url('fonts/radomir_tinkov_-_gilroy-extrabold-webfont.woff') format('woff'),
          url('fonts/radomir_tinkov_-_gilroy-extrabold-webfont.woff2') format('woff2');

@@ -1,4 +1,98 @@
+body {
+	margin: 0;
+	}
+
+.wrapper {
+   background: #3030C1;
+   height: 100vh;
+}
+
+.logo {
+  padding: 60px 0 40px 130px;
+}
+
+.main {
+  padding: 90px 0 117px 130px;
+  background: top 40px right 130px no-repeat url(img/Student.svg);
+}
+
 .main__title {
+  margin: 0 675px 33px 0;
+  color: #FFF;
   font: bold 45px/55px gilroyextrabold, arial, helvetica, sans-serif;
 }
+
+.main__title_mob {
+	display: none;
+}
+
+.main__subtitle_one {
+  margin: 0 940px 8px 0;
+  color: #FFCC33;
+  font: bold 30px/37px gilroyextrabold, arial, helvetica, sans-serif;
+}
+
+.main__subtitle_two {
+  margin: 0 800px 48px 0;
+  color: #FFF;
+  font: 20px/23px gilroylight, arial, helvetica, sans-serif;
+}
+
+.main__button {
+  font: bold 20px/24px montserratblack, arial, helvetica, sans-serif;
+  color: #3030C1;
+  background: #FFCC33;
+  padding: 18px 24px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.main__button:hover {
+  opacity: 0.5;
+  text-decoration: underline;
+}
+
+@media (max-width: 320px) {
+
+  .logo {
+    width: 93px;
+    height: 24px;
+    padding: 39px 197px 21px 30px;
+ }
+  
+  .main {
+  	padding: 0 20px 250px 30px;
+  	background: center top 250px no-repeat url(img/Student.svg);
+    background-size: 80%;
+  }
+
+  .main__title {
+  	display: none;
+  }
+
+  .main__title_mob {
+  	display: block;
+    margin: 0 0 25px 0;
+    color: #FFF;
+    font: bold 25px/31px gilroyextrabold, arial, helvetica, sans-serif;
+
+  }
+
+  .main__subtitle_one {
+    margin: 0 25px 2px 0;
+    font: bold 20px/25px gilroyextrabold, arial, helvetica, sans-serif;
+  }
+
+  .main__subtitle_two {
+    margin: 0 34px 0 0;
+    font: 15px/17px gilroylight, arial, helvetica, sans-serif;
+  }
+
+  .main__button {
+    display: none;
+  }
+}
+
+
+
 

@@ -1,8 +1,8 @@
 @font-face {
   font-family: 'gilroyextrabold';
   src:
-    url('fonts/radomir_tinkov_-_gilroy-extrabold-webfont.woff') format('woff'),
-    url('fonts/radomir_tinkov_-_gilroy-extrabold-webfont.woff2') format('woff2');
+    url('fonts/radomir_tinkov_-_gilroy-extrabold-webfont.woff2') format('woff2'),
+    url('fonts/radomir_tinkov_-_gilroy-extrabold-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }

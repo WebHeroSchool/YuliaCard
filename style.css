@@ -8,16 +8,17 @@ body {
 }
 
 .logo {
-  padding: 60px 0 40px 130px;
+  padding: 60px 0 4px 130px;
 }
 
 .main {
-  padding: 90px 0 117px 130px;
-  background: top 40px right 130px no-repeat url(img/Student.svg);
+  padding: 90px 0 130px 130px;
+  background: top 70px right 130px no-repeat url(img/Student.svg);
 }
 
 .main__title {
-  margin: 0 675px 33px 0;
+  width: 48%;
+  margin-bottom: 32px;
   color: #fff;
   font: bold 45px/55px gilroyextrabold, arial, helvetica, sans-serif;
 }
@@ -27,13 +28,16 @@ body {
 }
 
 .main__subtitle_one {
-  margin: 0 940px 8px 0;
+  width: 28%;
+  margin-bottom: 10px;
   color: #fc3;
   font: bold 30px/37px gilroyextrabold, arial, helvetica, sans-serif;
 }
 
 .main__subtitle_two {
-  margin: 0 800px 48px 0;
+  width: 38%;
+  margin-top: 0;
+  margin-bottom: 48px;
   color: #fff;
   font: 20px/23px gilroylight, arial, helvetica, sans-serif;
 }
@@ -42,7 +46,7 @@ body {
   font: bold 20px/24px montserratblack, arial, helvetica, sans-serif;
   color: #3030c1;
   background: #fc3;
-  padding: 18px 24px;
+  padding: 19px 25px 15px 24px;
   text-decoration: none;
   cursor: pointer;
 }
@@ -50,6 +54,122 @@ body {
 .main__button:hover {
   opacity: 0.5;
   text-decoration: underline;
+}
+
+@media (max-width: 1200px) {
+
+  .main {
+    padding: 20px 0 10px 130px;
+    background: top 70px right 80px no-repeat url(img/Student.svg);
+    background-size: 37%;
+  }
+
+  .main__title {
+    width: 55%;
+  }
+
+  .main__subtitle_one {
+    width: 40%;
+  }
+
+  .main__subtitle_two {
+    width: 38%;
+  }
+}
+
+@media (max-width: 900px) {
+  
+  .main {
+    padding: 10px 0 10px 100px;
+    background: top 70px right 50px no-repeat url(img/Student.svg);
+    background-size: 38%;
+  }
+
+  .main__title {
+    width: 57%;
+    font: bold 35px/45px gilroyextrabold, arial, helvetica, sans-serif;
+  }
+
+  .main__subtitle_one {
+    width: 42%;
+    font: bold 25px/35px gilroyextrabold, arial, helvetica, sans-serif;
+  }
+
+  .main__subtitle_two {
+    width: 38%;
+    font: 15px/18px gilroylight, arial, helvetica, sans-serif;
+  }
+
+  .main__button {
+    font: bold 18px/22px montserratblack, arial, helvetica, sans-serif;
+  }
+}
+
+@media (max-width: 720px) {
+
+  .logo {
+    padding: 60px 0 4px 50px;
+    width: 100px
+  }
+  .main {
+    padding: 10px 0 10px 50px;
+    background: top 70px right 50px no-repeat url(img/Student.svg);
+    background-size: 38%;
+  }
+
+  .main__title {
+    width: 57%;
+    font: bold 27px/37px gilroyextrabold, arial, helvetica, sans-serif;
+  }
+
+  .main__subtitle_one {
+    width: 42%;
+    font: bold 20px/30px gilroyextrabold, arial, helvetica, sans-serif;
+  }
+
+  .main__subtitle_two {
+    width: 38%;
+    font: 10px/13px gilroylight, arial, helvetica, sans-serif;
+  }
+
+  .main__button {
+    font: bold 13px/16px montserratblack, arial, helvetica, sans-serif;
+    padding: 10px 16px 9px 15px;
+  }
+}
+
+@media (max-width: 600px) {
+
+  .logo {
+    width: 90px
+  }
+
+  .main {
+    padding: 10px 0 10px 50px;
+    background: top 50px right 30px no-repeat url(img/Student.svg);
+    background-size: 45%;
+  }
+
+  .main__title {
+    width: 57%;
+    margin-bottom: 20px;
+    font: bold 25px/31px gilroyextrabold, arial, helvetica, sans-serif;
+  }
+
+  .main__subtitle_one {
+    width: 48%;
+    font: bold 20px/25px gilroyextrabold, arial, helvetica, sans-serif;
+  }
+
+  .main__subtitle_two {
+    width: 43%;
+    font: 10px/13px gilroylight, arial, helvetica, sans-serif;
+  }
+
+  .main__button {
+    font: bold 13px/16px montserratblack, arial, helvetica, sans-serif;
+    padding: 10px 16px 9px 15px;
+  }
 }
 
 @media (max-width: 320px) {
@@ -78,11 +198,13 @@ body {
   }
 
   .main__subtitle_one {
+  	width: 88%;
     margin: 0 25px 2px 0;
     font: bold 20px/25px gilroyextrabold, arial, helvetica, sans-serif;
   }
 
   .main__subtitle_two {
+  	width: 88%;
     margin: 0 34px 0 0;
     font: 15px/17px gilroylight, arial, helvetica, sans-serif;
   }

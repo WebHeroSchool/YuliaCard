@@ -143,138 +143,12 @@ body {
   }
 }
 
-@media (max-width: 720px) {
+@media (max-width: 768px) {
 
-  .logo {
-  	padding-left: 50px;
-    width: 100px
-  }
-  .main {
-    padding: 10px 0 40px 50px;
-    background: top 50px right 30px no-repeat url(img/Student.svg);
-    background-size: 43%;
-  }
-
-  .main__title {
-    width: 52%;
-    margin-bottom: 18px;
-    font: bold 26px/32px gilroyextrabold, arial, helvetica, sans-serif;
-  }
-
-  .main__subtitle_one {
-    width: 39%;
-    font: bold 19px/27px gilroyextrabold, arial, helvetica, sans-serif;
-  }
-
-  .main__subtitle_two {
-    width: 38%;
-    font: 10px/13px gilroylight, arial, helvetica, sans-serif;
-  }
-
-  .main__button {
-    font: bold 13px/16px montserratblack, arial, helvetica, sans-serif;
-    padding: 10px 16px 9px 15px;
-  }
-}
-
-@media (max-width: 600px) {
-
-  .logo {
-  	padding: 20px 0 40px 50px;
-    width: 90px;
-  }
-
-  .main {
-    padding: 10px 0 50px 50px;
-    background: top 30px right 30px no-repeat url(img/Student.svg);
-    background-size: 42%;
-  }
-
-  .main__title {
-    width: 50%;
-    margin-bottom: 18px;
-    font: bold 21px/24px gilroyextrabold, arial, helvetica, sans-serif;
-  }
-
-  .main__subtitle_one {
-    width: 48%;
-    margin-bottom: 5px;
-    font: bold 18px/22px gilroyextrabold, arial, helvetica, sans-serif;
-  }
-
-  .main__subtitle_two {
-    width: 43%;
-    margin-bottom: 22px;
-    font: 10px/13px gilroylight, arial, helvetica, sans-serif;
-  }
-
-  .main__button {
-    font: bold 11px/13px montserratblack, arial, helvetica, sans-serif;
-    padding: 10px 16px 9px 15px;
-  }
-}
-
-@media (max-width: 520px) {
-
-	.main__title {
-    width: 50%;
-    margin-bottom: 12px;
-    font: bold 17px/20px gilroyextrabold, arial, helvetica, sans-serif;
-  }
-
-  .main__subtitle_one {
-    width: 42%;
-    font: bold 13px/15px gilroyextrabold, arial, helvetica, sans-serif;
-  }
-
-  .main__subtitle_two {
-    width: 40%;
-  }
-}
-
-@media (max-width: 420px) {
-
-  .logo {
-    width: 93px;
-    height: 24px;
-    padding: 39px 197px 21px 30px;
-}
-  
-  .main {
-    padding: 0 0 280px 30px;
-    background: center top 200px no-repeat url(img/Student.svg);
+   .main {
+    padding: 0 20px 550px 70px;
+    background: center top 350px no-repeat url(img/Student.svg);
     background-size: 75%;
-  }
-
-  .main__title {
-  	width: 88%;
-    font: bold 25px/31px gilroyextrabold, arial, helvetica, sans-serif;
-     margin: 0 0 15px 0;
-  }
-
-  .main__subtitle_one {
-  	width: 90%;
-    margin: 0 0px 2px 0;
-    font: bold 20px/25px gilroyextrabold, arial, helvetica, sans-serif;
-  }
-
-  .main__subtitle_two {
-  	width: 88%;
-    margin: 0 34px 0 0;
-    font: 15px/17px gilroylight, arial, helvetica, sans-serif;
-  }
-
-  .main__button {
-    display: none;
-  }
-}
-
-@media (max-width: 320px) {
-
-  .main {
-    padding: 0 20px 250px 30px;
-    background: center top 250px no-repeat url(img/Student.svg);
-    background-size: 80%;
   }
 
   .main__title {
@@ -282,9 +156,98 @@ body {
   }
 
   .main__title_mob {
+  	width: 80%;
     display: block;
-    margin: 0 0 25px 0;
+    margin: 0 0 28px 0;
     color: #FFF;
+    font: bold 37px/40px gilroyextrabold, arial, helvetica, sans-serif;
+  }
+
+   .main__subtitle_one {
+  	width: 88%;
+    margin: 0 30px 15px 0;
+    font: bold 32px/35px gilroyextrabold, arial, helvetica, sans-serif;
+  }
+
+  .main__subtitle_two {
+    width: 90%;
+    font: 25px/29px gilroylight, arial, helvetica, sans-serif;
+  }
+
+  .main__button {
+    display: none;
+}
+
+@media (max-width: 545px) {
+
+  .main {
+  	padding: 0 0 430px 50px;
+  	background-size: 80%;
+  }
+
+  .main__title_mob {
+    width: 95%;
+    margin-bottom: 25px;
+    font: bold 34px/36px gilroyextrabold, arial, helvetica, sans-serif;
+  }
+
+  .main__subtitle_one {
+    width: 90%;
+    font: bold 28px/32px gilroyextrabold, arial, helvetica, sans-serif;
+    margin-bottom: 5px;
+  }
+
+  .main__subtitle_two {
+    width: 90%;
+    font: 20px/26px gilroylight, arial, helvetica, sans-serif;
+  }
+}
+
+@media (max-width: 400px) {
+
+  .logo {
+    width: 93px;
+    height: 24px;
+    padding: 39px 197px 50px 30px;
+}
+  
+  .main {
+    padding: 0 0 380px 30px;
+    background: center top 330px no-repeat url(img/Student.svg);
+    background-size: 79%;
+  }
+
+  .main__title_mob {
+    font: bold 25px/31px gilroyextrabold, arial, helvetica, sans-serif;
+     margin: 0 0 25px 0;
+  }
+
+  .main__subtitle_one {
+  	width: 95%;
+    margin: 0 0 5px 0;
+    font: bold 20px/25px gilroyextrabold, arial, helvetica, sans-serif;
+  }
+
+  .main__subtitle_two {
+  	width: 88%;
+    font: 15px/19px gilroylight, arial, helvetica, sans-serif;
+  }
+}
+
+@media (max-width: 320px) {
+
+  .logo {
+  	padding-bottom: 20px;
+  }
+
+  .main {
+    padding: 0 20px 250px 30px;
+    background: center top 245px no-repeat url(img/Student.svg);
+    background-size: 81%;
+  }
+
+  .main__title_mob {
+    margin: 0 0 26px 0;
     font: bold 25px/31px gilroyextrabold, arial, helvetica, sans-serif;
   }
 
@@ -294,6 +257,10 @@ body {
     font: bold 20px/25px gilroyextrabold, arial, helvetica, sans-serif;
   }
 
+   .main__subtitle_two {
+  	width: 88%;
+    font: 15px/17px gilroylight, arial, helvetica, sans-serif;
+  }
 }
 
 

@@ -5,6 +5,7 @@ body {
 .wrapper {
   background: #3030c1;
   height: 100vh;
+  margin-bottom: 55px;
 }
 
 .logo {
@@ -37,7 +38,7 @@ body {
 .main__subtitle_two {
   width: 38%;
   margin-top: 0;
-  margin-bottom: 48px;
+  margin-bottom: 50px;
   color: #fff;
   font: 20px/23px gilroylight, arial, helvetica, sans-serif;
 }
@@ -46,7 +47,7 @@ body {
   font: bold 20px/24px montserratblack, arial, helvetica, sans-serif;
   color: #3030c1;
   background: #fc3;
-  padding: 19px 25px 15px 24px;
+  padding: 18px 25px 17px 24px;
   text-decoration: none;
   cursor: pointer;
 }
@@ -54,6 +55,12 @@ body {
 .main__button:hover {
   opacity: 0.5;
   text-decoration: underline;
+}
+
+.plan__title {
+  font: bold 40px/49px gilroyextrabold, arial, helvetica, sans-serif;
+  margin-bottom: 30px;
+  text-align: center;
 }
 
 @media (max-width: 1300px) {

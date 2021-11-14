@@ -61,6 +61,39 @@ body {
   font: bold 40px/49px gilroyextrabold, arial, helvetica, sans-serif;
   margin-bottom: 30px;
   text-align: center;
+  color: #3a3a3a;
+}
+
+.plan__wrapper {
+  display: flex;
+  justify-content: center;
+  max-width: 1180px;
+  margin: 0;
+}
+
+.plan__item {
+  weight: 380px;
+  height: 401px;
+  background: #fbfbfb;
+  box-shadow: drop-shadow(7px 7px 30px rgba(0, 0, 0, 0.25));
+}
+
+.plan__item_image {
+ 
+}
+
+.plan__item_link {
+  font: bold 30px/37px gilroyextrabold, arial, helvetica, sans-serif;
+  color: #3030C1;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+}
+
+.plan__item_text {
+  font: bold 20px/25px gilroyextrabold, arial, helvetica, sans-serif;
+  color: #3a3a3a;
+  text-align: center;
 }
 
 @media (max-width: 1300px) {

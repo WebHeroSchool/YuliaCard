@@ -73,6 +73,7 @@ body {
 }
 
 .plan__item {
+  position: relative;
   flex: 0 0 30%;
   box-sizing: border-box;
   margin: auto;
@@ -83,7 +84,7 @@ body {
 }
 
 .plan__item_image {
-
+  position: absolute;
  
 }
 

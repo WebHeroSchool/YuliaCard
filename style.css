@@ -39,7 +39,7 @@ body {
 .main__subtitle_two {
   width: 38%;
   margin-top: 0;
-  margin-bottom: 50px;
+  margin-bottom: 48px;
   color: #fff;
   font: 20px/23px gilroylight, arial, helvetica, sans-serif;
 }
@@ -48,7 +48,7 @@ body {
   font: bold 20px/24px montserratblack, arial, helvetica, sans-serif;
   color: #3030c1;
   background: #fc3;
-  padding: 18px 25px 17px 24px;
+  padding: 18px 25px 15px 24px;
   text-decoration: none;
   cursor: pointer;
 }
@@ -68,7 +68,7 @@ body {
 .plan__wrapper {
   display: flex;
   justify-content: center;
-  max-width: 1180px;
+  max-width: 82%;
   margin: auto;
   margin-left: 140px;
   margin-bottom: 53px;
@@ -76,7 +76,7 @@ body {
 
 .plan__item {
   position: relative;
-  flex: 0 0 380px;
+  flex: 0 0 32%;
   box-sizing: border-box;
   height: 401px;
   background: #fbfbfb;
@@ -86,7 +86,7 @@ body {
 
 .plan__item_image {
   position: absolute;
-  left: 137px;
+  left: 131px;
   top: 47px;
   margin-bottom: 25px;
 }
@@ -107,7 +107,7 @@ body {
   padding-top: 3px;
   width: 231px;
   display: block;
-  padding-left: 73px;
+  padding-left: 70px;
 }
 
 .plan__item_text-two {
@@ -117,7 +117,7 @@ body {
   margin-top: 0;
   width: 231px;
   display: block;
-  padding-left: 73px;
+  padding-left: 71px;
   padding-top: 13px;
 }
 
@@ -128,7 +128,7 @@ body {
   padding-top: 3px;
   width: 249px;
   display: block;
-  padding-left: 64px;
+  padding-left: 66px;
 }
 
 .beginning__title {
@@ -254,6 +254,58 @@ body {
 
   .main__button {
     font: bold 18px/22px montserratblack, arial, helvetica, sans-serif;
+  }
+
+  .plan__item_image {
+    left: 100px;
+    margin-bottom: 25px;
+  }
+
+  .plan__item_link {
+    font: bold 23px/30px gilroyextrabold, arial, helvetica, sans-serif;
+  }
+
+  .plan__item_text-one {
+    font: bold 18px/20px gilroyextrabold, arial, helvetica, sans-serif;
+    padding-top: 15px;
+    width: 220px;
+    padding-left: 50px;
+  }
+
+  .plan__item_text-two {
+    font: bold 18px/20px gilroyextrabold, arial, helvetica, sans-serif;
+    width: 220px;
+    padding-left: 50px;
+    padding-top: 25px;
+  }
+
+  .plan__item_text-three {
+    font: bold 18px/20px gilroyextrabold, arial, helvetica, sans-serif;
+    width: 220px;
+    padding-left: 50px;
+    padding-top: 20px;
+  }
+
+  .beginning__title {
+    font: bold 35px/44px gilroyextrabold, arial, helvetica, sans-serif;
+  }
+
+  .beginning__subtitle {
+    font: 25px/30px gilroylight, arial, helvetica, sans-serif;
+  }
+
+  .form__title {
+    font: bold 35px/44px gilroyextrabold, arial, helvetica, sans-serif;
+  }
+
+  .form__text_item {
+    margin-left: 428px;
+    width: 350px;
+  }
+
+  .form__button {
+    margin-left: 428px;
+    padding:  30px 98px 28px 98px;
   }
 }
 

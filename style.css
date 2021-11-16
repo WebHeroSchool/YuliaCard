@@ -71,6 +71,7 @@ body {
   max-width: 1180px;
   margin: auto;
   margin-left: 140px;
+  margin-bottom: 53px;
 }
 
 .plan__item {
@@ -128,6 +129,72 @@ body {
   width: 249px;
   display: block;
   padding-left: 64px;
+}
+
+.beginning__title {
+  font: bold 40px/49px gilroyextrabold, arial, helvetica, sans-serif;
+  text-align: center;
+}
+
+.beginning__subtitle {
+  font: 30px/35px gilroylight, arial, helvetica, sans-serif;
+  text-align: center;
+  display: block;
+  width: 997px;
+  padding-left: 14px;
+  margin: auto;
+  margin-bottom: 55px;
+}
+
+.form {
+  background: #f0fbff;
+  height: 589px;
+}
+
+.form__title {
+  font: bold 40px/49px gilroyextrabold, arial, helvetica, sans-serif;
+  text-align: center;
+  padding-top: 73px;
+  margin-bottom: 50px;
+}
+
+.form__text {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 74px;
+}
+
+.form__text_item {
+  margin-left: 528px;
+  width: 380px;
+  height: 80px;
+  font: 20px/23px gilroylight, arial, helvetica, sans-serif;
+  color:  #878787;
+  margin-bottom: 30px;
+  border-style: none;
+  padding-left: 30px;
+  box-sizing: border-box;
+  align-content: space-between;
+}
+
+.form__button {
+  font: bold 20px/24px montserratblack, arial, helvetica, sans-serif;
+  color: #000;
+  text-align: center;
+  text-decoration: none;
+  padding:  30px 110px 28px 110px;
+  background-color: #ffda45;
+  margin-left: 530px;
+}
+
+.footer {
+  height: 120px;
+  background-color: #00008b;
+  padding-left: 132px;
+  padding-top: 50px;
+  font: 15px/18px robotoregular, arial, helvetica, sans-serif;
+  color: #fff;
+  box-sizing: border-box;
 }
 
 @media (max-width: 1300px) {

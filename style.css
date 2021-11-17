@@ -414,7 +414,7 @@ body {
   .main {
     padding: 0 20px 800px 70px;
     background: center top 350px no-repeat url(img/Student.svg);
-    background-size: 85%;
+    background-size: 75%;
   }
 
   .main__title {
@@ -485,8 +485,8 @@ body {
 @media (max-width: 545px) {
 
   .main {
-  	padding: 0 0 430px 50px;
-  	background-size: 80%;
+  	padding: 0 0 530px 50px;
+  	background-size: 75%;
   }
 
   .main__title_mob {
@@ -504,6 +504,38 @@ body {
   .main__subtitle_two {
     width: 90%;
     font: 20px/26px gilroylight, arial, helvetica, sans-serif;
+  }
+
+  .plan__item {
+    margin-right: 60px;
+  }
+
+  .plan__item_image {
+    left: 35%;
+  }
+
+  .plan__item_text-one {
+    padding-left: 18%;
+  }
+
+  .plan__item_text-two {
+    padding-left: 18%;
+  }
+
+  .plan__item_text-three {
+    padding-left: 18%;
+  }
+
+  .form__text_item {
+    margin-left: 30%;
+  }
+
+  .form__button {
+    margin-left: 30%;
+  }
+
+  .footer {
+    padding-left: 50px;
   }
 }
 
@@ -535,6 +567,41 @@ body {
   .main__subtitle_two {
   	width: 88%;
     font: 15px/19px gilroylight, arial, helvetica, sans-serif;
+  }
+
+  .plan__title {
+    font: bold 20px/29px gilroyextrabold, arial, helvetica, sans-serif;
+  }
+
+  .plan__item_image {
+    left: 28%;
+  }
+
+  .plan__item_text-one {
+    width: 150px;
+    padding-left: 20%;
+  }
+
+  .plan__item_text-two {
+    width: 150px;
+    padding-left: 20%;
+  }
+
+  .plan__item_text-three {
+    width: 150px;
+    padding-left: 20%;
+  }
+
+  .form__title {
+    font: bold 18px/24px gilroyextrabold, arial, helvetica, sans-serif;
+  }
+
+  .form__text_item {
+    margin-left: 10%;
+  }
+
+  .form__button {
+    margin-left: 10%;
   }
 }
 

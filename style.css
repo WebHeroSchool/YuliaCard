@@ -622,15 +622,83 @@ body {
     font: bold 25px/31px gilroyextrabold, arial, helvetica, sans-serif;
   }
 
-   .main__subtitle_one {
+  .main__subtitle_one {
   	width: 88%;
     margin: 0 25px 2px 0;
     font: bold 20px/25px gilroyextrabold, arial, helvetica, sans-serif;
   }
 
-   .main__subtitle_two {
+  .main__subtitle_two {
   	width: 88%;
     font: 15px/17px gilroylight, arial, helvetica, sans-serif;
+  }
+
+  .plan__title {
+    font: bold 20px/25px gilroyextrabold, arial, helvetica, sans-serif;
+    margin-top: 55px;
+  }
+
+  .plan__wrapper {
+    margin-left: 31px;
+  }
+
+  .plan__item {
+    width: 259px;
+    height: 273px;
+  }
+
+  .plan__item_image {
+    left: 70px;
+    margin-bottom: 35px;
+  }
+
+  .plan__item_link {
+    font: bold 20px/25px gilroyextrabold, arial, helvetica, sans-serif;
+  }
+
+  .plan__item_text-one {
+    font: bold 10px/12px gilroyextrabold, arial, helvetica, sans-serif;
+    padding-top: 15px;
+    width: 116px;
+    padding-left: 30px;
+  }
+
+  .plan__item_text-two {
+    font: bold 10px/12px gilroyextrabold, arial, helvetica, sans-serif;
+    width: 116px;
+    padding-left: 30px;
+    padding-top: 25px;
+  }
+
+  .plan__item_text-three {
+    font: bold 10px/12px gilroyextrabold, arial, helvetica, sans-serif;
+    width: 116px;
+    padding-left: 30px;
+    padding-top: 20px;
+  }
+
+  .beginning__title {
+    font: bold 25px/34px gilroyextrabold, arial, helvetica, sans-serif;
+  }
+
+  .beginning__subtitle {
+    font: 20px/25px gilroylight, arial, helvetica, sans-serif;
+  }
+
+  .form__title {
+    font: bold 25px/34px gilroyextrabold, arial, helvetica, sans-serif;
+  }
+
+  .form__text_item {
+    margin-left: 328px;
+    width: 300px;
+    font: 10px/15px gilroylight, arial, helvetica, sans-serif;
+  }
+
+  .form__button {
+    margin-left: 328px;
+    padding:  30px 80px 28px 80px;
+    font: bold 15px/19px montserratblack, arial, helvetica, sans-serif;
   }
 }
 

@@ -407,10 +407,14 @@ body {
 
 @media (max-width: 768px) {
 
-   .main {
-    padding: 0 20px 550px 70px;
+  .wrapper {
+    height: auto;
+  }
+
+  .main {
+    padding: 0 20px 800px 70px;
     background: center top 350px no-repeat url(img/Student.svg);
-    background-size: 75%;
+    background-size: 85%;
   }
 
   .main__title {
@@ -441,12 +445,40 @@ body {
   }
 
   .plan__title {
-    font: bold 20px/25px gilroyextrabold, arial, helvetica, sans-serif;
+    font: bold 40px/45px gilroyextrabold, arial, helvetica, sans-serif;
   }
 
   .plan__wrapper {
     display: flex;
     flex-direction: column;
+  }
+
+  .plan__item_image {
+    left: 40%;
+  }
+
+  .plan__item_text-one {
+    width: 250px;
+    padding-left: 30%;
+  }
+
+  .plan__item_text-two {
+    width: 250px;
+    padding-left: 30%;
+  }
+
+  .plan__item_text-three {
+    
+    width: 250px;
+    padding-left: 30%;
+  }
+
+  .form__text_item {
+    margin-left: 30%;
+  }
+
+  .form__button {
+    margin-left: 30%;
   }
 }
 

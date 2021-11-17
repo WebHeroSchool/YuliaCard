@@ -146,6 +146,10 @@ body {
   margin-bottom: 55px;
 }
 
+.beginning__subtitle_mob {
+  display:  none;
+}
+
 .form {
   background: #f0fbff;
   height: 589px;
@@ -157,6 +161,10 @@ body {
   text-align: center;
   padding-top: 73px;
   margin-bottom: 50px;
+}
+
+.form__title_mob {
+  display: none;
 }
 
 .form__text {
@@ -575,6 +583,8 @@ body {
 
   .plan__item_image {
     left: 28%;
+    width:  85px;
+    height: 85px;
   }
 
   .plan__item_text-one {
@@ -612,7 +622,7 @@ body {
   }
 
   .main {
-    padding: 0 20px 250px 30px;
+    padding: 0 20px 239px 30px;
     background: center top 245px no-repeat url(img/Student.svg);
     background-size: 81%;
   }
@@ -640,67 +650,111 @@ body {
 
   .plan__wrapper {
     margin-left: 31px;
+    margin-bottom: 38px;
   }
 
   .plan__item {
     width: 259px;
     height: 273px;
+    margin-bottom: 20px;
   }
 
   .plan__item_image {
-    left: 70px;
-    margin-bottom: 35px;
+    width: 85px;
+    height: 85px;
+    left: 43px;
+    top: 20px;
+    margin-bottom: 0px;
   }
 
   .plan__item_link {
     font: bold 20px/25px gilroyextrabold, arial, helvetica, sans-serif;
+    padding-top: 142px;
+    margin-bottom: 7px;
   }
 
   .plan__item_text-one {
     font: bold 10px/12px gilroyextrabold, arial, helvetica, sans-serif;
-    padding-top: 15px;
+    padding-top: 5px;
     width: 116px;
-    padding-left: 30px;
+    padding-left: 72px;
+    padding-bottom: 30px;
   }
 
   .plan__item_text-two {
     font: bold 10px/12px gilroyextrabold, arial, helvetica, sans-serif;
     width: 116px;
-    padding-left: 30px;
-    padding-top: 25px;
+    padding-left:71px;
+    padding-top: 0px;
+    padding-bottom: 30px;
   }
 
   .plan__item_text-three {
     font: bold 10px/12px gilroyextrabold, arial, helvetica, sans-serif;
-    width: 116px;
-    padding-left: 30px;
-    padding-top: 20px;
+    width: 125px;
+    padding-left: 63px;
+    padding-top: 5px;
+    padding-bottom: 30px;
   }
 
   .beginning__title {
-    font: bold 25px/34px gilroyextrabold, arial, helvetica, sans-serif;
+    font: bold 20px/25px gilroyextrabold, arial, helvetica, sans-serif;
+    margin-bottom: 29px;
+  }
+
+  .beginning__subtitle_mob {
+    font: 18px/21px gilroylight, arial, helvetica, sans-serif;
+    text-align: center;
+    display: block;
+    padding-left: 32px;
+    padding-right: 35px;
+    margin-bottom: 55px;
   }
 
   .beginning__subtitle {
-    font: 20px/25px gilroylight, arial, helvetica, sans-serif;
+    display: none;
+  }
+
+  .form {  
+    height: 337px;
+  }
+
+  .form__title_mob {
+    text-align: center;
+    display: block;
+    padding-top: 43px;
+    font: bold 20px/25px gilroyextrabold, arial, helvetica, sans-serif;
+    margin-bottom: 27px;
   }
 
   .form__title {
-    font: bold 25px/34px gilroyextrabold, arial, helvetica, sans-serif;
+    display: none;
+  }
+
+  .form__text {
+    margin-bottom: 25px;
   }
 
   .form__text_item {
-    margin-left: 328px;
-    width: 300px;
-    font: 10px/15px gilroylight, arial, helvetica, sans-serif;
+    margin-bottom: 13px;
+    margin-left: 30px;
+    width: 260px;
+    height: 45px;
+    font: 10px/12px gilroylight, arial, helvetica, sans-serif;
+    padding-left: 15px;
+    box-sizing: border-box;
   }
 
   .form__button {
-    margin-left: 328px;
-    padding:  30px 80px 28px 80px;
-    font: bold 15px/19px montserratblack, arial, helvetica, sans-serif;
+    margin-left: 29px;
+    padding: 18px 89px 16px 90px;
+    font: bold 10px/12px montserratblack, arial, helvetica, sans-serif;
+  }
+
+  .footer {
+    height: 60px;
+    padding-left: 30px;
+    padding-top: 24px;
+    font: 10px/12px robotoregular, arial, helvetica, sans-serif;
   }
 }
-
-
-

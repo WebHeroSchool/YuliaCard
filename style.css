@@ -452,7 +452,7 @@ body {
 @media (max-width: 768px) {
 
   .wrapper {
-    height: auto;
+    height: 1000px;
   }
 
   .main {
@@ -517,6 +517,13 @@ body {
 
   .form__button {
     margin-left: 30%;
+  }
+}
+
+@media (max-width:  600px) {
+
+  .wrapper {
+    height: 870px;
   }
 }
 

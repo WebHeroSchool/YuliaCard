@@ -744,7 +744,7 @@ body {
 
   .main__subtitle_one {
   	width: 88%;
-    margin: 0 25px 2px 0;
+    margin: 0 25px 1px 0;
     font: bold 20px/25px gilroyextrabold, arial, helvetica, sans-serif;
   }
 
@@ -794,7 +794,7 @@ body {
   .plan__item_text-two {
     font: bold 10px/12px gilroyextrabold, arial, helvetica, sans-serif;
     width: 116px;
-    padding-left:71px;
+    padding-left:70px;
     padding-top: 0px;
     padding-bottom: 30px;
   }
@@ -802,7 +802,7 @@ body {
   .plan__item_text-three {
     font: bold 10px/12px gilroyextrabold, arial, helvetica, sans-serif;
     width: 125px;
-    padding-left: 63px;
+    padding-left: 64px;
     padding-top: 5px;
     padding-bottom: 30px;
   }

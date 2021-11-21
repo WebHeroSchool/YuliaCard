@@ -5,7 +5,7 @@ body {
 
 .wrapper {
   background: #3030c1;
-  height: 100vh;
+  height: 840px;
   margin-bottom: 55px;
 }
 
@@ -105,7 +105,7 @@ body {
   color: #3a3a3a;
   text-align: center;
   padding-top: 3px;
-  width: 231px;
+  max-width: 231px;
   display: block;
   padding-left: 70px;
 }
@@ -115,7 +115,7 @@ body {
   color: #3a3a3a;
   text-align: center;
   margin-top: 0;
-  width: 231px;
+  max-width: 231px;
   display: block;
   padding-left: 71px;
   padding-top: 13px;
@@ -126,7 +126,7 @@ body {
   color: #3a3a3a;
   text-align: center;
   padding-top: 3px;
-  width: 249px;
+  max-width: 249px;
   display: block;
   padding-left: 66px;
 }
@@ -153,7 +153,7 @@ body {
 .form {
   background: #f0fbff;
   height: 589px;
-  width: 100%;
+  
 }
 
 .form__title {
@@ -171,11 +171,11 @@ body {
   display: flex;
   flex-direction: column;
   margin-bottom: 74px;
-  aligh-items:  center;
+  align-items: center;
 }
 
 .form__text_item {
-  margin-left: 528px;
+  
   width: 380px;
   height: 80px;
   font: 20px/23px gilroylight, arial, helvetica, sans-serif;
@@ -184,7 +184,7 @@ body {
   border-style: none;
   padding-left: 30px;
   box-sizing: border-box;
-  align-content: space-between;
+  
 }
 
 .form__button {
@@ -215,6 +215,10 @@ body {
 
 @media (max-width: 1300px) {
 
+  .wrapper {
+    height: 700px;
+  }
+
   .main {
     padding: 20px 0 10px 130px;
     background: top 40px right 80px no-repeat url(img/Student.svg);
@@ -235,6 +239,10 @@ body {
 }
 
 @media (max-width: 1200px) {
+
+  .wrapper {
+    height: 600px;
+  }
 
   .logo {
   	padding: 50px 0 50px 100px;
@@ -278,20 +286,17 @@ body {
   .plan__item_text-one {
     font: bold 18px/20px gilroyextrabold, arial, helvetica, sans-serif;
     padding-top: 15px;
-    width: 220px;
     padding-left: 50px;
   }
 
   .plan__item_text-two {
     font: bold 18px/20px gilroyextrabold, arial, helvetica, sans-serif;
-    width: 220px;
     padding-left: 50px;
     padding-top: 25px;
   }
 
   .plan__item_text-three {
     font: bold 18px/20px gilroyextrabold, arial, helvetica, sans-serif;
-    width: 220px;
     padding-left: 50px;
     padding-top: 20px;
   }
@@ -309,7 +314,6 @@ body {
   }
 
   .form__text_item {
-    margin-left: 428px;
     width: 350px;
   }
 
@@ -320,6 +324,10 @@ body {
 }
 
 @media (max-width: 960px) {
+
+  .wrapper {
+    height: 530px;
+  }
 
   .logo {
   	padding-left: 70px;
@@ -371,21 +379,18 @@ body {
   .plan__item_text-one {
     font: bold 15px/18px gilroyextrabold, arial, helvetica, sans-serif;
     padding-top: 15px;
-    width: 200px;
-    padding-left: 30px;
+    padding-left: 10px;
   }
 
   .plan__item_text-two {
     font: bold 15px/18px gilroyextrabold, arial, helvetica, sans-serif;
-    width: 200px;
-    padding-left: 30px;
+    padding-left: 10px;
     padding-top: 25px;
   }
 
   .plan__item_text-three {
     font: bold 15px/18px gilroyextrabold, arial, helvetica, sans-serif;
-    width: 200px;
-    padding-left: 30px;
+    padding-left: 10px;
     padding-top: 20px;
   }
 
@@ -402,7 +407,6 @@ body {
   }
 
   .form__text_item {
-    margin-left: 328px;
     width: 300px;
     font: 10px/15px gilroylight, arial, helvetica, sans-serif;
   }
@@ -411,6 +415,20 @@ body {
     margin-left: 328px;
     padding:  30px 80px 28px 80px;
     font: bold 15px/19px montserratblack, arial, helvetica, sans-serif;
+  }
+}
+
+@media (max-width: 780px) {
+
+  .wrapper {
+    height: 550px;
+  }
+
+  .plan__item_image {
+    left: 50px;
+    margin-bottom: 35px;
+    width: 95px;
+    height: 95px;
   }
 }
 
@@ -423,7 +441,7 @@ body {
   .main {
     padding: 0 20px 800px 70px;
     background: center top 350px no-repeat url(img/Student.svg);
-    background-size: 75%;
+    background-size: 70%;
   }
 
   .main__title {
@@ -480,10 +498,6 @@ body {
     padding-left: 30%;
   }
 
-  .form__text_item {
-    margin-left: 30%;
-  }
-
   .form__button {
     margin-left: 30%;
   }
@@ -491,9 +505,14 @@ body {
 
 @media (max-width: 545px) {
 
+  .wrapper {
+    height: auto;
+  }
+
   .main {
-  	padding: 0 0 530px 50px;
-  	background-size: 75%;
+  	padding: 0 30px 500px 50px;
+  	background-size: 60%;
+    background: center top 300px no-repeat url(img/Student.svg);
   }
 
   .main__title_mob {
@@ -533,12 +552,8 @@ body {
     padding-left: 18%;
   }
 
-  .form__text_item {
-    margin-left: 30%;
-  }
-
   .form__button {
-    margin-left: 30%;
+    margin-left: 23%;
   }
 
   .footer {
@@ -610,7 +625,7 @@ body {
   }
 
   .form__button {
-    margin-left: 10%;
+    margin-left: 20%;
   }
 }
 

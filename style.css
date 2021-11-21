@@ -833,6 +833,7 @@ body {
     text-align: center;
     display: block;
     padding-top: 43px;
+    padding-right: 1px;
     font: bold 20px/25px gilroyextrabold, arial, helvetica, sans-serif;
     margin-bottom: 27px;
   }

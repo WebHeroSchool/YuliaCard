@@ -503,12 +503,10 @@ body {
   }
 
   .plan__item_text-one {
-    
     padding-left: 30%;
   }
 
   .plan__item_text-two {
-    
     padding-left: 30%;
   }
 
@@ -547,6 +545,18 @@ body {
   .main__subtitle_two {
     width: 90%;
     font: 22px/25px gilroylight, arial, helvetica, sans-serif;
+  }
+
+  .plan__item_text-one {
+    padding-left: 25%;
+  }
+
+  .plan__item_text-two {
+    padding-left: 25%;
+  }
+
+  .plan__item_text-three {
+    padding-left: 25%;
   }
 }
 

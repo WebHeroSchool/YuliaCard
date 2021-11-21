@@ -236,6 +236,23 @@ body {
   .main__subtitle_two {
     width: 38%;
   }
+
+  .plan__item_image {
+    left: 100px;
+    margin-bottom: 25px;
+  }
+
+  .plan__item_text-one {
+    padding-left: 40px;
+  }
+
+  .plan__item_text-two {
+    padding-left: 40px;
+  }
+
+  .plan__item_text-three {
+    padding-left: 40px;
+  }
 }
 
 @media (max-width: 1200px) {

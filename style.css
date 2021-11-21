@@ -619,6 +619,55 @@ body {
   }
 }
 
+@media (max-width: 432px) {
+
+  .wrapper {
+    height: 780px;
+  }
+
+  .logo {
+    padding-left: 40px;
+  }
+
+  .main {
+    padding: 0 0 380px 30px;
+    background: center top 300px no-repeat url(img/Student.svg);
+    background-size: 79%;
+  }
+
+  .main__title_mob {
+    font: bold 28px/33px gilroyextrabold, arial, helvetica, sans-serif;
+     margin: 0 0 25px 0;
+  }
+
+  .main__subtitle_one {
+    width: 95%;
+    margin: 0 0 5px 0;
+    font: bold 23px/27px gilroyextrabold, arial, helvetica, sans-serif;
+  }
+
+  .main__subtitle_two {
+    width: 88%;
+    font: 18px/22px gilroylight, arial, helvetica, sans-serif;
+  }
+
+  .plan__title {
+    font: bold 24px/32px gilroyextrabold, arial, helvetica, sans-serif;
+  }
+
+  .plan__item_text-one {
+    padding-left: 10%;
+  }
+
+  .plan__item_text-two {
+    padding-left: 10%;
+  }
+
+  .plan__item_text-three {
+    padding-left: 10%;
+  }
+}
+
 @media (max-width: 420px) {
 
   .logo {
@@ -654,24 +703,9 @@ body {
   }
 
   .plan__item_image {
-    left: 28%;
+    left: 35%;
     width:  85px;
     height: 85px;
-  }
-
-  .plan__item_text-one {
-    width: 150px;
-    padding-left: 20%;
-  }
-
-  .plan__item_text-two {
-    width: 150px;
-    padding-left: 20%;
-  }
-
-  .plan__item_text-three {
-    width: 150px;
-    padding-left: 20%;
   }
 
   .form__title {

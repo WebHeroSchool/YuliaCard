@@ -94,7 +94,7 @@ body {
 .plan__item_link {
   padding-top: 189px;
   font: bold 30px/37px gilroyextrabold, arial, helvetica, sans-serif;
-  color: #3030C1;
+  color: #3030c1;
   text-decoration: none;
   text-align: center;
   display: block;
@@ -189,7 +189,7 @@ body {
   color: #000;
   text-align: center;
   text-decoration: none;
-  padding:  30px 110px 28px 110px;
+  padding: 30px 110px 28px 110px;
   background-color: #ffda45;
   margin-left: 530px;
   cursor: pointer;
@@ -211,7 +211,6 @@ body {
 }
 
 @media (max-width: 1300px) {
-
   .wrapper {
     height: 700px;
   }
@@ -333,7 +332,7 @@ body {
 
   .form__button {
     margin-left: 428px;
-    padding:  30px 98px 28px 98px;
+    padding: 30px 98px 28px 98px;
   }
 }
 
@@ -427,7 +426,7 @@ body {
 
   .form__button {
     margin-left: 328px;
-    padding:  30px 80px 28px 80px;
+    padding: 30px 80px 28px 80px;
     font: bold 15px/19px montserratblack, arial, helvetica, sans-serif;
   }
 }
@@ -634,7 +633,7 @@ body {
 
   .main__title_mob {
     font: bold 28px/33px gilroyextrabold, arial, helvetica, sans-serif;
-     margin: 0 0 25px 0;
+    margin: 0 0 25px 0;
   }
 
   .main__subtitle_one {
@@ -701,7 +700,7 @@ body {
 
   .plan__item_image {
     left: 35%;
-    width:  85px;
+    width: 85px;
     height: 85px;
   }
 
@@ -791,7 +790,7 @@ body {
   .plan__item_text-two {
     font: bold 10px/12px gilroyextrabold, arial, helvetica, sans-serif;
     width: 116px;
-    padding-left:70px;
+    padding-left: 70px;
     padding-top: 0;
     padding-bottom: 30px;
   }

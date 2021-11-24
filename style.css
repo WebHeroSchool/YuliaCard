@@ -91,10 +91,7 @@ body {
 }
 
 .plan__item_image-two {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 50px;
-  margin-bottom: 7px;
+  margin: 50px auto 7px auto;
 }
 
 .plan__item_link {
@@ -538,7 +535,7 @@ body {
   .plan__item{
     width: 81%;
     height: 12%;
-    margin-bottom: 1%;
+    margin-bottom: 2%;
   }
 
   .plan__item_image {

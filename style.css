@@ -67,68 +67,90 @@ body {
 
 .plan__wrapper {
   display: flex;
-  justify-content: center;
-  max-width: 82%;
-  margin: auto;
-  margin-left: 140px;
+  justify-content: space-between;
+  margin: 0 auto;
   margin-bottom: 53px;
+  width: 82%;
 }
 
 .plan__item {
-  position: relative;
-  flex: 0 0 32%;
-  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   height: 401px;
+  width: 380px;
   background: #fbfbfb;
   box-shadow: 7px 7px 30px rgba(0, 0, 0, 0.25);
-  margin-right: 20px;
+  flex-wrap: wrap;
 }
 
 .plan__item_image {
-  position: absolute;
-  left: 131px;
-  top: 47px;
-  margin-bottom: 25px;
+  margin: 0 auto;
+  padding-bottom: 25px;
+}
+
+.plan__item_image-two {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 7px;
 }
 
 .plan__item_link {
-  padding-top: 189px;
+  padding-left: 6%;
+  padding-right: 6%;
   font: bold 30px/37px gilroyextrabold, arial, helvetica, sans-serif;
   color: #3030c1;
   text-decoration: none;
   text-align: center;
   display: block;
+  padding-top: 5px;
+}
+
+.plan__item_link-two {
+  padding-left: 7%;
+  padding-right: 7%;
+  font: bold 30px/37px gilroyextrabold, arial, helvetica, sans-serif;
+  color: #3030c1;
+  text-decoration: none;
+  text-align: center;  
+  padding-top: 20px;
+  flex-grow: 1;
 }
 
 .plan__item_text-one {
   font: bold 20px/25px gilroyextrabold, arial, helvetica, sans-serif;
   color: #3a3a3a;
   text-align: center;
-  padding-top: 3px;
+  padding-left: 3%;
+  padding-right: 3%;
   max-width: 231px;
   display: block;
-  padding-left: 70px;
+  margin-top: 22px;
 }
 
 .plan__item_text-two {
   font: bold 20px/25px gilroyextrabold, arial, helvetica, sans-serif;
   color: #3a3a3a;
   text-align: center;
-  margin-top: 0;
+  padding-bottom: 30px;
+  padding-left: 1%;
+  padding-right: 1%;
   max-width: 231px;
   display: block;
-  padding-left: 71px;
-  padding-top: 13px;
+  margin-top: 0;
 }
 
 .plan__item_text-three {
   font: bold 20px/25px gilroyextrabold, arial, helvetica, sans-serif;
   color: #3a3a3a;
   text-align: center;
-  padding-top: 3px;
+  padding-left: 3%;
   max-width: 249px;
   display: block;
-  padding-left: 66px;
+  padding-right: 3%;
+  margin-top: 22px;
 }
 
 .beginning__title {
@@ -152,7 +174,7 @@ body {
 
 .form {
   background: #f0fbff;
-  height: 589px;
+  height: 587px;
 }
 
 .form__title {
@@ -169,7 +191,7 @@ body {
 .form__text {
   display: flex;
   flex-direction: column;
-  margin-bottom: 74px;
+  margin-bottom: 70px;
   align-items: center;
 }
 
@@ -191,7 +213,7 @@ body {
   text-decoration: none;
   padding: 30px 110px 28px 110px;
   background-color: #ffda45;
-  margin-left: 530px;
+  margin-top: 43px;
   cursor: pointer;
 }
 
@@ -232,22 +254,25 @@ body {
   .main__subtitle_two {
     width: 38%;
   }
-
-  .plan__item_image {
-    left: 100px;
-    margin-bottom: 25px;
+  .plan__item {
+    width: 32%;
+    flex-wrap: nowrap;
   }
 
-  .plan__item_text-one {
-    padding-left: 40px;
+  .plan__item_image-two {
+    margin: 0 auto;
+    padding-top: 30px;
   }
 
-  .plan__item_text-two {
-    padding-left: 40px;
+  .plan__item_link-two {
+    flex-grow: 0;
+    margin-bottom: 10px;
+    padding-top: 15px;
+    font: bold 30px/33px gilroyextrabold, arial, helvetica, sans-serif;
   }
 
-  .plan__item_text-three {
-    padding-left: 40px;
+  .footer {
+    padding-left: 130px;
   }
 }
 
@@ -287,30 +312,34 @@ body {
     font: bold 18px/22px montserratblack, arial, helvetica, sans-serif;
   }
 
-  .plan__item_image {
-    left: 100px;
-    margin-bottom: 25px;
+  .plan__item_image-two {
+    padding-top: 20px;
+    margin-bottom: 20px;
   }
 
   .plan__item_link {
     font: bold 23px/30px gilroyextrabold, arial, helvetica, sans-serif;
   }
 
+  .plan__item_link-two {
+    padding-top: 15px;
+    font: bold 23px/30px gilroyextrabold, arial, helvetica, sans-serif;
+  }
+
   .plan__item_text-one {
     font: bold 18px/20px gilroyextrabold, arial, helvetica, sans-serif;
     padding-top: 15px;
-    padding-left: 50px;
   }
 
   .plan__item_text-two {
     font: bold 18px/20px gilroyextrabold, arial, helvetica, sans-serif;
-    padding-left: 50px;
     padding-top: 25px;
+    padding-left: 2%;
+    padding-right: 2%;
   }
 
   .plan__item_text-three {
     font: bold 18px/20px gilroyextrabold, arial, helvetica, sans-serif;
-    padding-left: 50px;
     padding-top: 20px;
   }
 
@@ -331,8 +360,11 @@ body {
   }
 
   .form__button {
-    margin-left: 428px;
     padding: 30px 98px 28px 98px;
+  }
+
+  .footer {
+    padding-left: 100px;
   }
 }
 
@@ -376,12 +408,11 @@ body {
     font: bold 25px/34px gilroyextrabold, arial, helvetica, sans-serif;
   }
 
-  .plan__wrapper {
-    margin-left: 90px;
+  .plan__item_image {
+    margin-bottom: 35px;
   }
 
-  .plan__item_image {
-    left: 70px;
+  .plan__item_image-two {
     margin-bottom: 35px;
   }
 
@@ -389,21 +420,22 @@ body {
     font: bold 20px/26px gilroyextrabold, arial, helvetica, sans-serif;
   }
 
+  .plan__item_link-two {
+    font: bold 20px/26px gilroyextrabold, arial, helvetica, sans-serif;
+  }
+
   .plan__item_text-one {
     font: bold 15px/18px gilroyextrabold, arial, helvetica, sans-serif;
     padding-top: 15px;
-    padding-left: 10px;
   }
 
   .plan__item_text-two {
     font: bold 15px/18px gilroyextrabold, arial, helvetica, sans-serif;
-    padding-left: 10px;
     padding-top: 25px;
   }
 
   .plan__item_text-three {
     font: bold 15px/18px gilroyextrabold, arial, helvetica, sans-serif;
-    padding-left: 10px;
     padding-top: 20px;
   }
 
@@ -425,9 +457,12 @@ body {
   }
 
   .form__button {
-    margin-left: 328px;
     padding: 30px 80px 28px 80px;
     font: bold 15px/19px montserratblack, arial, helvetica, sans-serif;
+  }
+
+  .footer {
+    padding-left: 70px;
   }
 }
 
@@ -438,10 +473,14 @@ body {
   }
 
   .plan__item_image {
-    left: 50px;
     margin-bottom: 35px;
-    width: 95px;
-    height: 95px;
+    width: 92px;
+    height: 92px;
+  }
+
+  .plan__item_image-two {
+    width: 92px;
+    height: 92px;
   }
 }
 
@@ -491,28 +530,43 @@ body {
   .plan__wrapper {
     display: flex;
     flex-direction: column;
-    margin-left: 60px;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+  }
+
+  .plan__item{
+    width: 81%;
+    height: 12%;
+    margin-bottom: 1%;
   }
 
   .plan__item_image {
-    left: 40%;
+    width: 90px;
+    height: 90px;
+    margin-bottom: 0;
+    padding-top: 6%;
   }
 
-  .plan__item_text-one {
-    padding-left: 30%;
+  .plan__item_image-two {
+    margin-bottom: 25px;
+    width: 90px;
+    height: 90px;
   }
 
-  .plan__item_text-two {
-    padding-left: 30%;
+  .form__title {
+    padding-left: 10%;
+    padding-right: 10%;
   }
 
-  .plan__item_text-three {
-    padding-left: 30%;
+  .form__text_item {
+    width: 81%;
+    height: 80px;
   }
 
   .form__button {
-    margin-left: 30%;
-  }
+    padding-left: 32%;
+    padding-right: 32%;
 }
 
 @media (max-width: 600px) {
@@ -541,18 +595,6 @@ body {
   .main__subtitle_two {
     width: 90%;
     font: 22px/25px gilroylight, arial, helvetica, sans-serif;
-  }
-
-  .plan__item_text-one {
-    padding-left: 25%;
-  }
-
-  .plan__item_text-two {
-    padding-left: 25%;
-  }
-
-  .plan__item_text-three {
-    padding-left: 25%;
   }
 }
 
@@ -586,28 +628,9 @@ body {
     margin-bottom: 70px;
   }
 
-  .plan__item {
-    margin-right: 60px;
-  }
-
-  .plan__item_image {
-    left: 35%;
-  }
-
-  .plan__item_text-one {
-    padding-left: 18%;
-  }
-
-  .plan__item_text-two {
-    padding-left: 18%;
-  }
-
-  .plan__item_text-three {
-    padding-left: 18%;
-  }
-
   .form__button {
-    margin-left: 23%;
+    padding-left: 29%;
+    padding-right: 29%;
   }
 
   .footer {
@@ -622,11 +645,11 @@ body {
   }
 
   .logo {
-    padding-left: 40px;
+    padding-left: 35px;
   }
 
   .main {
-    padding: 0 0 380px 30px;
+    padding: 0 0 380px 35px;
     background: center top 300px no-repeat url(img/Student.svg);
     background-size: 79%;
   }
@@ -651,16 +674,13 @@ body {
     font: bold 24px/32px gilroyextrabold, arial, helvetica, sans-serif;
   }
 
-  .plan__item_text-one {
-    padding-left: 10%;
+  .form__button {
+    padding-left: 27%;
+    padding-right: 27%;
   }
 
-  .plan__item_text-two {
-    padding-left: 10%;
-  }
-
-  .plan__item_text-three {
-    padding-left: 10%;
+  .footer {
+    padding-left: 35px;
   }
 }
 
@@ -699,7 +719,11 @@ body {
   }
 
   .plan__item_image {
-    left: 35%;
+    width: 85px;
+    height: 85px;
+  }
+
+  .plan__item_image-two {
     width: 85px;
     height: 85px;
   }
@@ -708,12 +732,8 @@ body {
     font: bold 18px/24px gilroyextrabold, arial, helvetica, sans-serif;
   }
 
-  .form__text_item {
-    margin-left: 10%;
-  }
-
-  .form__button {
-    margin-left: 20%;
+  .footer {
+    padding-left: 30px;
   }
 }
 
@@ -755,8 +775,7 @@ body {
   }
 
   .plan__wrapper {
-    margin-left: 31px;
-    margin-bottom: 38px;
+    margin-bottom: 36px;
   }
 
   .plan__item {
@@ -768,39 +787,46 @@ body {
   .plan__item_image {
     width: 85px;
     height: 85px;
-    left: 33%;
-    top: 40px;
-    margin-bottom: 0;
+    padding: 0;
+    margin-bottom: 10px;
+    margin-top: 9px;
+  }
+
+  .plan__item_image-two {
+    width: 85px;
+    height: 85px;
+    margin-top: 25px;
+    margin-bottom: 15px;
   }
 
   .plan__item_link {
     font: bold 20px/25px gilroyextrabold, arial, helvetica, sans-serif;
-    padding-top: 142px;
-    margin-bottom: 7px;
+  }
+
+  .plan__item_link-two {
+    font: bold 20px/25px gilroyextrabold, arial, helvetica, sans-serif;
+    padding-top: 0;
   }
 
   .plan__item_text-one {
     font: bold 10px/12px gilroyextrabold, arial, helvetica, sans-serif;
-    padding-top: 5px;
-    width: 116px;
-    padding-left: 72px;
-    padding-bottom: 30px;
+    padding-top: 15px;
+    max-width: 116px;
+    margin-top: 0;
   }
 
   .plan__item_text-two {
     font: bold 10px/12px gilroyextrabold, arial, helvetica, sans-serif;
-    width: 116px;
-    padding-left: 70px;
+    max-width: 116px;
     padding-top: 0;
-    padding-bottom: 30px;
+    padding-bottom: 38px;
   }
 
   .plan__item_text-three {
     font: bold 10px/12px gilroyextrabold, arial, helvetica, sans-serif;
-    width: 125px;
-    padding-left: 64px;
-    padding-top: 5px;
-    padding-bottom: 30px;
+    max-width: 125px;
+    margin-top: 0;
+    padding-top: 15px;
   }
 
   .beginning__title {
@@ -839,7 +865,7 @@ body {
   }
 
   .form__text {
-    margin-bottom: 25px;
+    margin-bottom: 0px;
   }
 
   .form__text_item {
@@ -855,13 +881,13 @@ body {
   }
 
   .form__button {
-    margin-left: 29px;
     padding: 18px 89px 16px 90px;
     font: bold 10px/12px montserratblack, arial, helvetica, sans-serif;
+    margin-top: 12px;
   }
 
   .footer {
-    height: 60px;
+    height: 58px;
     padding-left: 31px;
     padding-top: 24px;
     font: 10px/12px robotoregular, arial, helvetica, sans-serif;
